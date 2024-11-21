@@ -1,0 +1,36 @@
+/* GraphView.css */
+
+.graph-view-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    min-height: 100vh;
+  }
+  
+  .graph-card {
+    width: 100%;
+    max-width: 1000px;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .download-button {
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: #1f78b4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #155a8a;
+  }
+  
